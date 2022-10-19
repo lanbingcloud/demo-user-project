@@ -121,6 +121,7 @@ spec:
       params:
       - name: GOALS
         value: 
+          - -DskipTests
           - clean
           - install
           - -f
